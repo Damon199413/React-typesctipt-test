@@ -1,0 +1,39 @@
+.create-password {
+    width: 300px;
+    height: 330px;
+    padding: 30px 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    .check-img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.03);
+        margin: 30px auto 40px;
+        background-image: url("/assets/images/icon.svg");
+        background-size: 100% 100%;
+    }
+    .success-text {
+        font-size: 28px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .alert-text {
+        font-size: 16px;
+        margin: 15px 0;
+        span{
+            color: #379EFF;
+        }
+    }
+    .continue-btn {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
